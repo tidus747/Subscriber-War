@@ -1,26 +1,18 @@
-Subscriber War
+Subscriber War Pi
 ===
-Subscriber War is a live, textpunk YouTube subscriber counter written in Python3.  
-![Screenie](https://i.sli.mg/q9g6Uo.png)  
-To start it, make sure you have Python3 installed and an [API key registered with YouTube](https://developers.google.com/youtube/android/player/register), place 
-the API key in the file "apiKey.txt" and run:  
+Subscriber War Pi es un contador de suscriptores e *YouTube* en tiempo real escrito en Python.
+
+Para hacer que funcione, asegurate de que tienes instalado en tu Raspberry Pi Python y además una [API key registrada para Youtube](https://developers.google.com/youtube/android/player/register), coloca dicha clave en un fichero llamado "apiKey.txt" e introduce el siguiente comando en un terminal:  
 ```
 ./subWar.py
 ```  
 
-Adding users to monitor is simple, just use the addUser() function:  
+Cambiar de usuario para realizar el seguimiento es simple, simplemente usa la función:  
 ```
-addUser(<NAME TO DISPLAY>,<CHANNEL ID>,<COLOR>)
+addUser(<NAME TO DISPLAY>,<CHANNEL ID>)
 ```
 
-Version 0.1
+## Referencias
 
-Original
-
-Version 0.2
-
-- getSubs() now takes a username instead of channelID
-- Exchanged playerList for number of players
-- addUser() to now take channelName instead of channelID
-- addUser() defaults to a random color if no value is given
-- randomColor() gives a randomColor to each user
+- [Aplicación original Subscriber War](https://github.com/faissaloo/Subscriber-War)
+- [Utilidades para Raspberry Pi](https://github.com/tidus747/Utilidades_RaspberryPi)
