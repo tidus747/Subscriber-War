@@ -1,3 +1,5 @@
+<img width="320" src="https://www.raspberrypi.org/app/uploads/2017/06/Powered-by-Raspberry-Pi-Logo_Outline-Colour-Screen-500x153.png" align="right" />
+
 Subscriber War Pi
 ===
 Subscriber War Pi es un contador de suscriptores e *YouTube* en tiempo real escrito en Python.
